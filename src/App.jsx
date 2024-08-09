@@ -6,6 +6,7 @@ import Main from "./Component/Main"
 
 
 
+
 function App() {
  
 
@@ -19,6 +20,7 @@ function App() {
     </div>
 
     <Main/>
+   
  
     </>
   )
