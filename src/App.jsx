@@ -1,5 +1,9 @@
 import React from "react"
 import './App.css'
+import Header from "./Component/Header"
+import HeroImg from "./Component/HeroImg"
+import Main from "./Component/Main"
+
 
 
 function App() {
@@ -7,7 +11,15 @@ function App() {
 
   return (
     <>
-   <h1>Hello world</h1>
+
+    <div className="hero">
+
+    <Header/>
+    <HeroImg/>
+    </div>
+
+    <Main/>
+ 
     </>
   )
 }
