@@ -41,6 +41,24 @@ a {
     display: none;
 }
 
+.login{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+
+.register{
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    color: #fff;
+    border-color: #fff;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 767px) {
     a {
         color: #000;
@@ -79,6 +97,24 @@ a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .login{
+        background-color: transparent;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+        margin-right: 5px;
+    }
+    
+    .register{
+        background-color: transparent;
+        padding: 0.5rem 1rem;
+        border-radius: 30px;
+        color: #fff;
+        border-color: #fff;
+        cursor: pointer;
     }
 }
 

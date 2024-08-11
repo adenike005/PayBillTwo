@@ -53,9 +53,10 @@ function Header() {
 
         {menuOpen && <div className="fixed-background" onClick={handleBackgroundClick}></div>}
 
-        <div className="btn">
-        <img src={Button} alt="button" />
-        </div>
+         <div className="button">
+          <button className="login">Login</button>
+          <button className="register">Register</button>
+         </div>
         <div className="mobile_menu">
           <List size={18} color="#fff" onClick={menuToggle} />
         </div>
