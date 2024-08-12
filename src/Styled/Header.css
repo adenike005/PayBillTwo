@@ -1,7 +1,20 @@
+/* Header.css */
 body.no-scroll {
-  
     overflow: hidden;
-}
+  }
+  
+  .sticky_header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #1F6CAB; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Other styles remain the same */
+  
 
 .section-header{
     display: flex;

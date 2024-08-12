@@ -5,6 +5,23 @@ import { List } from '@phosphor-icons/react';
 import Button from '/button.png'
 
 function Header() {
+  const headerRef = useRef(null);
+
+  const stickyHeaderRunc = () =>{
+    window.addEventListener('scroll', () =>{
+      if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
+        headerRef.current.classList.add('sticky_header')
+      }else{
+        headerRef.current.classList.remove('sticky_header')
+      }
+    })
+  }
+
+  useEffect(() =>{
+   stickyHeaderRunc()
+   return () => window.removeEventListener('scroll', stickyHeaderRunc)
+  })
+
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
 
@@ -29,7 +46,7 @@ function Header() {
   };
 
   return (
-    <div className="section-header">
+    <div className="section-header" ref={headerRef}>
       <div className="header">
         <img src={Logo} alt="Logo" className="logo" />
         <div 

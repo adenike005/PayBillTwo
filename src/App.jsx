@@ -3,6 +3,8 @@ import './App.css'
 import Header from "./Component/Header"
 import HeroImg from "./Component/HeroImg"
 import Main from "./Component/Main"
+import FAQ from "./Component/FAQ"
+import Footer from "./Component/Footer"
 
 
 
@@ -20,6 +22,8 @@ function App() {
     </div>
 
     <Main/>
+    <FAQ/>
+    <Footer/>
    
  
     </>
