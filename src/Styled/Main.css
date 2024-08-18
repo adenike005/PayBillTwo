@@ -233,7 +233,7 @@ background-image: url('/Frame1.png');
 
 
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 900px) {
    
     .section-main {
         padding: 2rem;
