@@ -231,9 +231,36 @@ background-image: url('/Frame1.png');
   margin-top: 80%;
 }
 
+.sectiond{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('/sectiond.png');
+  border-radius: 20px;
+  margin-top: 10vh;
+  padding: 20px;
+  color: #fff;
+}
+
+
+
+.sectiond-text h3{
+  font-size: 2.5rem;
+  margin-bottom: 2vh;
+}
+
+.sectiond-text h5{
+  font-size: 1rem;
+  font-weight: 100;
+}
 
 
   @media screen and (max-width: 900px) {
+    .sectiond{
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
    
     .section-main {
         padding: 2rem;

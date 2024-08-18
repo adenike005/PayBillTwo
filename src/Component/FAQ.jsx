@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { FaPlus, FaMinus } from 'react-icons/fa'; // Import plus and minus icons
 import '../Styled/Faq.css'; // Import your CSS file
+import { IoIosPhonePortrait } from "react-icons/io";
 
 const FAQ = () => {
   const [expanded, setExpanded] = useState(null);
@@ -20,6 +21,7 @@ const FAQ = () => {
   };
 
   return (
+  <>
    <div className="containers">
      <div className="faq-container">
       <h1>Frequently Asked Questions</h1>
@@ -41,7 +43,15 @@ const FAQ = () => {
         </div>
       ))}
     </div>
+    
    </div>
+   <div className="context">
+    <div className="icon">
+    <IoIosPhonePortrait color='#fff' size={25}/>
+    </div>
+    <h3>Download the App</h3>
+   </div>
+  </>
   );
 };
 
