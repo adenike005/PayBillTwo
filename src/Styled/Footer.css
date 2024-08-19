@@ -3,29 +3,126 @@
     width: 100%;
     height: 100vh;
     background-position: center;
-    background-size: cover; /* Adjust background size */
+    background-size: cover;
     padding: 0rem 2rem;
-    display: flex;
-    align-items: flex-end; 
-    justify-content: center; 
+    position: relative;
 }
 
-.footer img {
-    max-width: 100%; 
-    height: auto; 
+.footer .bottom {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+    height: auto;
     object-fit: contain;
+}
+.footer-container{
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+    display: flex;
+   
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.bodys {
+    background-color: #fff;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2vh;
+    border-bottom: 1px solid #d2cfcf;
+}
+
+.footer-part-text p {
+    font-weight: 400; 
+    font-size: 0.8rem; 
+    margin-top: 1vh;
+    line-height: 1.5; 
+    letter-spacing: 0.02rem;
+}
+
+.footer-part-text {
+    width: 35%;
+}
+
+.footer-part-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.footer-part-link li {
+    margin-top: 1vh;
+    list-style-type: none;
+    cursor: pointer; 
+    font-size: 0.9rem;
+    /* color: #333;  */
+}
+
+.footer-part-link span {
+    font-weight: 400; 
+    font-size: 1.1rem; 
+    color: #949191; 
+    margin-bottom: 10rem; 
+    cursor: pointer;
+}
+
+.footer-body{
+    margin: 1vh 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    margin-inline: 1rem;
 }
 
 @media screen and (max-width: 767px) {
     .footer {
-        background-image: url('/footer.png');
         width: 100vw;
-        height: 100vh;
-        background-position: center;
-        background-size: cover; /* Adjust background size */
-        padding: 0rem 2rem;
-        display: flex;
-        align-items: flex-end; 
-        justify-content: center; 
+        padding: 0rem 1rem;
+    }
+
+    .footer .bottom {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        transform: translateX(0%);
+    }
+
+    .bodys {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .footer-part-text {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .footer-part-link {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
     }
 }
+
