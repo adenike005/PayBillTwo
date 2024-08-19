@@ -17,16 +17,17 @@
     height: auto;
     object-fit: contain;
 }
-.footer-container{
+
+.footer-container {
     background-color: #fff;
     padding: 1rem 1.5rem;
     display: flex;
-   
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
     flex-direction: column;
 }
+
 .body {
     display: flex;
     justify-content: center;
@@ -36,7 +37,6 @@
 
 .bodys {
     background-color: #fff;
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,10 +45,10 @@
 }
 
 .footer-part-text p {
-    font-weight: 400; 
-    font-size: 0.8rem; 
+    font-weight: 400;
+    font-size: 0.8rem;
     margin-top: 1vh;
-    line-height: 1.5; 
+    line-height: 1.5;
     letter-spacing: 0.02rem;
 }
 
@@ -57,30 +57,28 @@
 }
 
 .footer-part-link {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
     gap: 30px;
 }
 
 .footer-part-link li {
     margin-top: 1vh;
     list-style-type: none;
-    cursor: pointer; 
+    cursor: pointer;
     font-size: 0.9rem;
-    /* color: #333;  */
 }
 
 .footer-part-link span {
-    font-weight: 400; 
-    font-size: 1.1rem; 
-    color: #949191; 
-    margin-bottom: 10rem; 
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #949191;
+    margin-bottom: 10rem;
     cursor: pointer;
 }
 
-.footer-body{
-    margin: 1vh 0px;
+.footer-body {
+    margin: 1vh 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -107,11 +105,19 @@
         transform: translateX(0%);
     }
 
+    .footer-container {
+        padding: 1rem 1.5rem;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
     .bodys {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 1rem;
+        padding: 0rem;
     }
 
     .footer-part-text {
@@ -120,9 +126,23 @@
     }
 
     .footer-part-link {
-        flex-direction: column;
+        grid-template-columns: repeat(3, 1fr); 
         width: 100%;
         gap: 20px;
     }
+
+    .footer-part-text p {
+        font-size: 0.8rem;
+    }
+
+    .footer-body {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-icon {
+        gap: 3px;
+    }
 }
+
 

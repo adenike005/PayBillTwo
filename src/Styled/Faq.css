@@ -106,10 +106,10 @@
     .faq-container {
         width: 90%;
         padding: 20px;
-        background-image: url('FAQ.png');
+        /* background-image: url('FAQ.png'); */
         color: #fff;
-        background-position: center;
-        background-size: cover;
+        /* background-position: center;
+        background-size: cover; */
         border-radius: 10px;
       }
   }

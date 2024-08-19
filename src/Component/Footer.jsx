@@ -2,7 +2,6 @@ import React from "react";
 import "../Styled/Footer.css";
 import bottom from "/bottom.png";
 import Logo from "/Logos.png";
-import { IoIosPhonePortrait } from "react-icons/io";
 import { FaFacebook,  FaXTwitter,  FaLinkedinIn  } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -23,27 +22,33 @@ const Footer = () => {
             <div className="footer-part-link">
               <div>
                 <span>Product</span>
-                <li>Features</li>
-                <li>Solutions</li>
-                <li>Pricing</li>
+                <ul>
+                  <li>Features</li>
+                  <li>Solutions</li>
+                  <li>Pricing</li>
+                </ul>
               </div>
               <div>
                 <span>Company</span>
-                <li>About us</li>
-                <li>Careers</li>
-                <li>Media kit</li>
-                <li>Contact</li>
+                <ul>
+                  <li>About us</li>
+                  <li>Careers</li>
+                  <li>Media kit</li>
+                  <li>Contact</li>
+                </ul>
               </div>
               <div>
                 <span>Legal</span>
-                <li>Terms</li>
-                <li>Privacy</li>
+                <ul>
+                  <li>Terms</li>
+                  <li>Privacy</li>
+                </ul>
               </div>
             </div>
           </div>
 
           <div className="footer-body">
-            <p>@All right deserved. 2024, Paybills Limited</p>
+            <p>© All rights reserved. 2024, Paybills Limited</p>
 
             <div className="footer-icon">
               <div className="iconss">
@@ -68,3 +73,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
