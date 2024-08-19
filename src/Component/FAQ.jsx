@@ -46,7 +46,7 @@ const FAQ = () => {
     
    </div>
    <div className="context">
-    <div className="icon">
+    <div className="iconss">
     <IoIosPhonePortrait color='#fff' size={25}/>
     </div>
     <h3>Download the App</h3>
