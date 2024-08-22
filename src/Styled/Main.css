@@ -51,6 +51,7 @@
   .card p {
     font-size: 1.2rem;
     color: #333;
+    font-family: "Bold";
   }
 
   .feature-section{
@@ -69,12 +70,14 @@
     text-align: center;
     font-size: 3rem;
     margin-bottom: 2vh;
+    font-family: "Bold";
   }
 
   .feature-words h5{
     text-align: center;
     font-size: 1rem;
     font-weight: 500;
+    font-family: "light";
     
   }
 
@@ -83,6 +86,7 @@
     text-align: center;
     font-size: 3rem;
     margin-top: 10vh;
+    font-family: "Bold";
   }
 
 
@@ -134,6 +138,7 @@ background-image: url('/Frame1.png');
   font-size: 2rem;
   font-weight: 800;
   color: #fff;
+  font-family: "Bold";
 }
 
 .text-items h6{
@@ -141,6 +146,7 @@ background-image: url('/Frame1.png');
  font-weight: 100;
  color: #fff;
  margin-top: 1rem;
+ font-family: "light";
 }
 
 .text-item-img img{
@@ -164,7 +170,8 @@ background-image: url('/Frame1.png');
 
 .text-item-texts h3{
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  font-family: "Bold";
  
 }
 
@@ -174,6 +181,7 @@ background-image: url('/Frame1.png');
   font-weight: 100;
   margin-top: 0.5rem;
   letter-spacing: 0rem;
+  font-family: "light";
   line-height: 1.2rem;
 }
 
@@ -184,6 +192,7 @@ background-image: url('/Frame1.png');
 .text-item-button h5{
   color: #fff;
   font-size: 1rem;
+  font-family: "light";
 }
 
 .phone2 {
@@ -218,13 +227,15 @@ background-image: url('/Frame1.png');
 
 .overlay-text h2 {
   margin: 0 0 10px; 
-  font-size: 2rem; 
+  font-size: 1.8rem; 
+  font-family: "Bold";
 }
 
 .overlay-text h6 {
   margin: 0; 
   font-size: 1rem; 
   font-weight: 100;
+  font-family: "light";
 }
 
 .buttons{
@@ -245,13 +256,15 @@ background-image: url('/Frame1.png');
 
 
 .sectiond-text h3{
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-bottom: 2vh;
+  font-family: "Bold";
 }
 
 .sectiond-text h5{
   font-size: 1rem;
   font-weight: 100;
+  font-family: "light";
 }
 
 

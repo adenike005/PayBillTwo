@@ -53,6 +53,7 @@
     margin-top: 1vh;
     line-height: 1.5;
     letter-spacing: 0.02rem;
+    font-family: "light";
 }
 
 .footer-part-text {
@@ -72,14 +73,16 @@
     list-style-type: none;
     cursor: pointer;
     font-size: 0.9rem;
+    font-family: "light";
 }
 
 .footer-part-link span {
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #949191;
     margin-bottom: 10rem;
     cursor: pointer;
+    font-family: "Bold";
 }
 
 .footer-body {
