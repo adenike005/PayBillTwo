@@ -3,11 +3,25 @@ import "../Styled/Footer.css";
 import bottom from "/bottom.png";
 import Logo from "/Logos.png";
 import { FaFacebook,  FaXTwitter,  FaLinkedinIn  } from "react-icons/fa6";
+import frame2 from '/Frame2.png';
+import frame3 from '/Frame3.png';
 import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div className="footer">
+      <div className="stack">
+        <div className="footer-stack">
+         <span>Download on Apple and Google playstore</span>
+         <span>Join 137k+ users today.</span>
+         <span>Earn more money when you refer a friend</span>
+        <img src={frame2} alt="" />
+        </div>
+        <div className="footer-stack">
+        <img src={frame3} alt="" />
+
+        </div>
+      </div>
       <div className="body">
         <div className="footer-container">
           <div className="bodys">

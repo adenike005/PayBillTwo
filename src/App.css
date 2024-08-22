@@ -8,6 +8,22 @@
 }
 
 
+@font-face {
+  font-family: 'Bold';
+  src: url('./assets/Font/aeoniktrial-bold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'light';
+  src: url('./assets/Font/aeoniktrial-light.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .hero{
   background-image: url(/Hero.png);
   width: 100%;
