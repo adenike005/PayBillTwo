@@ -6,17 +6,53 @@ import { FaFacebook,  FaXTwitter,  FaLinkedinIn  } from "react-icons/fa6";
 import frame2 from '/Frame2.png';
 import frame3 from '/Frame3.png';
 import { FaWhatsapp } from "react-icons/fa";
+import { FaApple, FaGooglePlay, FaQrcode, FaUserFriends } from 'react-icons/fa';
+import { FiCopy } from "react-icons/fi";
+import user  from '/User.png'
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="stack">
-        <div className="footer-stack">
-         <span>Download on Apple and Google playstore</span>
-         <span>Join 137k+ users today.</span>
-         <span>Earn more money when you refer a friend</span>
-        <img src={frame2} alt="" />
-        </div>
+      <div className="footer-stack">
+  <div className="span">
+    <h1>Download on Apple <br /> and Google playstore</h1><br />
+   <div className="download-overicon">
+   <div className="download-icon">
+      <FaGooglePlay size={20} color="red" />
+      <span>Download on Google play</span>
+    </div>
+      <FaQrcode size={40} />
+   </div>
+
+      <div className="download-overicon">
+   <div className="download-icon">
+   <FaApple size={20}  color="#000"/>
+   <span>Download on Apple Store</span>
+    </div>
+    <FaQrcode size={40}  />
+   </div>
+
+    
+
+    <div className="user-box">
+    <span>Join 137k+ users today.</span><br />
+    <img src={user} alt="" className="icons"/>
+    </div>
+  
+   <div className="box-input-text">
+   <h3>Earn more money when <br /> you refer a friend</h3>
+   <div className="box-input">
+    <input type="text" placeholder="BP-EMMANUEL001"/>
+    <div className="box-copy">
+    <FiCopy />
+      <h6>Copy Referral code</h6>
+    </div>
+   </div>
+   </div>
+  </div>
+  <img src={frame2} alt="" />
+</div>
         <div className="footer-stack">
         <img src={frame3} alt="" />
 
